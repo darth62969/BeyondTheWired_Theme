@@ -1,3 +1,19 @@
+# ######################################################################################## 
+# Configuration: TheWired
+# For: Garuda Hyperland
+# Date Last Modified: 06/22/2024
+# ######################################################################################## 
+
+# ######################################################################################## 
+
+# A very basic example of a wallpaper setup.
+# You can set specific monitors using [referance]
+# You should change the directory under path to where your wallpaers are located
+# Duration can be hours minutes or seconds
+# Mode can be, fit, center, stretch etc.
+
+# ######################################################################################## 
+
 [default]
 path = "/home/sidious/Pictures/wallpaper2"
 duration = "5m"
