@@ -21,7 +21,7 @@ case $1 in
         cp -r ./.config/wpaperd ~/.config/wpaperd/
         ;;
     all)
-        cp -r ./config/ ~/.config/
+        cp -r ./.config/ ~/.config/
         ;;
     *)
         echo "OOPS, please tell me what to do:"
