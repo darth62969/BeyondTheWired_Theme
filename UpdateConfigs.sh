@@ -12,13 +12,13 @@ case $1 in
         cp -r ./.config/hypr/ ~/.config/
         ;;
     nwg-launcher)
-        cp -r ./.config/nwg-launchers/ ~/.config/nwg-launchers/
+        cp -r ./.config/nwg-launchers/ ~/.config/
         ;;
     waybar)
-        cp -r ./.config/waybar/ ~/.config/waybar/
+        cp -r ./.config/waybar/ ~/.config/
         ;;
     wpaperd)
-        cp -r ./.config/wpaperd ~/.config/wpaperd/
+        cp -r ./.config/wpaperd ~/.config/
         ;;
     all)
         cp -r ./config/ ~/.config/
