@@ -20,6 +20,16 @@ case $1 in
     wpaperd)
         cp -r ./.config/wpaperd ~/.config/
         ;;
+    backup)
+        if [ ! -d backup ]; then
+            mkdir backup
+        fi
+        cp -r ~/.config/wpaperd/ ./backup/
+        cp -r ~/.config/waybar/ ./backup/
+        cp -r ~/.config/nwg-launchers/ ./backup/
+        cp -r ~/.config/hypr/ ./backup/
+        ;;
+
     all)
         cp -r ./.config/ ~/.config/
         ;;
