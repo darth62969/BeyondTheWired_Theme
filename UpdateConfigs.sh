@@ -21,7 +21,15 @@ case $1 in
         cp -r ./.config/wpaperd ~/.config/
         ;;
     all)
-        cp -r ./config/ ~/.config/
+        cp -r ./.config/ ~/.config/
+        ;;
+
+    backup)
+        cp -r ~/.config/hypr ./backup/.config/
+        cp -r ~/.config/waybar/ ./backup/.config/
+        cp -r ~/.config/wpaperd ./backup/.config/
+        cp -r ~/.config/nwg-launchers/ ./backup/.config/
+        cp -r ~/.config/alacritty ./backup/.config/
         ;;
     *)
         echo "OOPS, please tell me what to do:"
